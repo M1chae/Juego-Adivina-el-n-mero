@@ -1,0 +1,117 @@
+body {
+    font-size: 15pt;
+    background-color: rgb(122, 118, 113);
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .regresar {
+    text-align: end;
+    font-weight: bold;
+  }
+  
+  .regresar a:hover {
+    color: rgb(54, 4, 54);
+  }
+  
+ 
+  
+  .col-1 {
+    flex-basis: 30%;
+    min-width: 325px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  .col-1 h3 {
+    text-align: center;
+  }
+  
+  /*.col-1 img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }*/
+  .col-1 a {
+    color: black;
+  }
+  
+  .col-1 a:hover {
+    color: rgb(46, 44, 46);
+  }
+  
+  .contpeq {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .contpeq h3 {
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+  }
+  h3 {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .tarj {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .etiq {
+    background-color: rgb(132, 198, 241);
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+  }
+  
+  .cont {
+    padding: 10px;
+    background-color: rgb(85, 38, 21);
+    color: white;
+  }
+  
+  button {
+    background-color: rgb(139, 186, 248);
+    border: none;
+    color: rgb(15, 15, 15);
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .row-2 {
+    height: 50px;
+    position: relative;
+  }
+  
+  .col-2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
